@@ -22,21 +22,24 @@
 ## Conclusions
 We build various models, using Ridge and Lasso Reguralization . And choose the model with Lasso regularisation with optimal value of alpha as final model.
 
-### The below mentioned variables are Top 10 significant in predicting the price
-Postive Features
-GrLivArea : Above grade (ground) living area square feet
-GarageCars : Size of garage in car capacity
-BsmtFullBath : Basement full bathrooms
-Fireplaces : Number of fireplaces
-KitchenAbvGr : Kitchens above grade (Negative Relation)
-1stFlrSF : First Floor square feet
-Neighborhood_NridgHt : Physical locations within Ames city limits: Northridge Heights
-FullBath : Full bathrooms above grade
-Neighborhood_Crawfor : Physical locations within Ames city limits: Crawford
-Negative Features
-HouseAge : Difference of Year when house is sold and the year it was built.(Negative Relation)
+<h3 style = "color : Green">The below mentioned variables are Top 10 significant in predicting the price</h3>
+<h4 style = "color : Green">Postive Features</h4>
 
-BsmtFinType1_No Base : Rating of basement finished area: No Basement (Negative Relation)
+- GrLivArea	              : Above grade (ground) living area square feet
+- GarageCars              : Size of garage in car capacity
+- BsmtFullBath	          : Basement full bathrooms
+- Fireplaces	          : Number of fireplaces
+- KitchenAbvGr	          : Kitchens above grade (Negative Relation)
+- 1stFlrSF                : First Floor square feet
+- Neighborhood_NridgHt    : Physical locations within Ames city limits: Northridge Heights
+- FullBath                : Full bathrooms above grade
+- Neighborhood_Crawfor    : Physical locations within Ames city limits: Crawford
+
+<h4 style = "color : Green">Negative Features</h4>
+
+- HouseAge	              : Difference of Year when house is sold and the year it was built.(Negative Relation)
+
+- BsmtFinType1_No Base    : Rating of basement finished area: No Basement (Negative Relation)
 ## Acknowledgements
 - This project is based on upgrad Course Advance Linear Regression
 
